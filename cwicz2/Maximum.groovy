@@ -6,10 +6,10 @@ def maximum(elements) {
 
 	elements.eachWithIndex{ element, index ->
 		if (element == max) {
-			list.push(index)
+			list.add(index)
 		}
 	}
-	return [max, list.sort()]
+	return [max, list]
 }
 
 (maxVal, indList) = maximum( [5, 3, 5, 5, 1, 5] )
