@@ -17,7 +17,7 @@ List getInts() {
 		}
 		if (input.isInteger()) {
 			Integer integer = Integer.parseInt(input)
-			numbers.push(integer)
+			numbers.add(integer)
 		} else {
 			err = true
 		}
